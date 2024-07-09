@@ -1,0 +1,112 @@
+.contact-us1 {
+  margin: 0;
+}
+.for-more-details1,
+.lane-c-fireman1 {
+  margin: 0;
+  font-weight: 500;
+}
+.contact-us-container1 {
+  align-self: stretch;
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  z-index: 2;
+}
+.footer-background {
+  position: absolute;
+  top: 0;
+  left: 0;
+  filter: blur(150px);
+  background-color: var(--color-linen);
+  width: 100%;
+  height: 100%;
+  z-index: 1;
+}
+.munchies-emporium-icon1 {
+  position: absolute;
+  top: 340.5px;
+  left: 326px;
+  width: 59.3px;
+  height: 21.4px;
+  z-index: 2;
+}
+.footer-divider-icon,
+.menu-link-icon1 {
+  position: absolute;
+  top: 338px;
+  left: 474px;
+  width: 25.5px;
+  height: 25.5px;
+  z-index: 2;
+}
+.footer-divider-icon {
+  left: 588.7px;
+  width: 26.3px;
+  height: 26.3px;
+}
+.footer-child,
+.footer-item,
+.icround-copyright-icon1 {
+  position: absolute;
+  top: 34px;
+  left: 448px;
+  width: 43px;
+  height: 43px;
+  z-index: 2;
+}
+.footer-item,
+.icround-copyright-icon1 {
+  top: 119px;
+}
+.icround-copyright-icon1 {
+  top: 399px;
+  left: 410px;
+  width: 17px;
+  height: 17px;
+  overflow: hidden;
+}
+.footer {
+  width: 938px;
+  height: 491px;
+  position: absolute;
+  margin: 0 !important;
+  bottom: -48px;
+  left: calc(50% - 469px);
+}
+.copyright-20241 {
+  flex: 1;
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+  z-index: 3;
+}
+.contact2,
+.copyright-2024-container {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-44xl) 0 var(--padding-45xl);
+  font-size: var(--font-size-2xs);
+}
+.contact2 {
+  flex-direction: column;
+  align-items: flex-end;
+  padding: var(--padding-185xl) var(--padding-33xl) var(--padding-7xl);
+  position: relative;
+  gap: var(--gap-74xl);
+  text-align: center;
+  font-size: var(--font-size-mini);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 296px) {
+  .copyright-2024-container {
+    padding-left: var(--padding-xl);
+    padding-right: var(--padding-xl);
+    box-sizing: border-box;
+  }
+}

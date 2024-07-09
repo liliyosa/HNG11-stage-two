@@ -1,0 +1,48 @@
+.frame-child7 {
+  width: 141px;
+  height: 141px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-cadetblue-300);
+  display: none;
+}
+.delicious-donuts-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 1;
+}
+.donuts1 {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+  display: inline-block;
+  min-width: 43px;
+  z-index: 2;
+}
+.donuts-wrapper,
+.rectangle-parent2 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: 0 var(--padding-16xl) 0 var(--padding-15xl);
+}
+.rectangle-parent2 {
+  align-self: stretch;
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-cadetblue-300);
+  flex-direction: column;
+  padding: var(--padding-3xs) var(--padding-sm) var(--padding-8xs)
+    var(--padding-mini);
+  text-align: left;
+  font-size: var(--font-size-xs);
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}

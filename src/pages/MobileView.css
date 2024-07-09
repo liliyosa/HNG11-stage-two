@@ -1,0 +1,411 @@
+.munchies-emporium-icon {
+  align-self: stretch;
+  height: 26px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+}
+.burger-item-container {
+  width: 72px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+  box-sizing: border-box;
+}
+.menu-link-icon {
+  width: 31px;
+  height: 31px;
+  position: relative;
+}
+.menu-link-container {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-10xs) 0 0;
+}
+.burger-divider-icon {
+  height: 32px;
+  width: 32px;
+  position: relative;
+}
+.burgers-container,
+.mobile-view1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  max-width: 100%;
+}
+.burgers-container {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.mobile-view1 {
+  align-self: stretch;
+  justify-content: flex-end;
+  padding: 0 var(--padding-5xl) 0 var(--padding-6xl);
+  box-sizing: border-box;
+}
+.delight-your-taste2,
+.munchies-emporium2 {
+  margin: 0;
+}
+.delight-your-taste-container1 {
+  margin: 0;
+  align-self: stretch;
+  position: relative;
+  font-size: inherit;
+  letter-spacing: -0.23px;
+  line-height: 40px;
+  font-weight: 700;
+  font-family: inherit;
+  z-index: 1;
+}
+.search-input-container-child {
+  height: 32.3px;
+  width: 67.6px;
+  position: relative;
+  border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
+  background-color: var(--color-cadetblue-200);
+  display: none;
+}
+.search1 {
+  position: relative;
+  font-size: var(--font-size-smi);
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 500;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: center;
+  display: inline-block;
+  min-width: 45px;
+  z-index: 3;
+}
+.search-container,
+.search-input-container {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.search-input-container {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-7xs) var(--padding-3xs) 6.3px;
+  background-color: var(--color-cadetblue-200);
+  flex: 1;
+  border-radius: 0 var(--br-3xs) var(--br-3xs) 0;
+  justify-content: flex-start;
+  z-index: 2;
+}
+.cart-buttons:hover,
+.search-input-container:hover {
+  background-color: var(--color-teal);
+}
+.search-container {
+  width: 121.6px;
+  justify-content: flex-end;
+  padding: 0 27px;
+  box-sizing: border-box;
+}
+.slogan-container {
+  flex: 1;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  gap: var(--gap-xl);
+}
+.header {
+  align-self: stretch;
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-45xl) 0 65px;
+}
+.frame-child6 {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.donuts-image-holder {
+  position: absolute;
+  top: 254.3px;
+  left: 30.9px;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  display: inline-block;
+  width: 46px;
+  height: 24.7px;
+  min-width: 46px;
+  white-space: nowrap;
+  z-index: 3;
+}
+.burger-image-container {
+  position: absolute;
+  top: 260.4px;
+  left: 161.7px;
+  width: 91.3px;
+  height: 12.8px;
+  z-index: 3;
+}
+.tasty-burger-isolated-white-ba-icon1 {
+  position: absolute;
+  top: 0;
+  left: 12.3px;
+  width: 260.4px;
+  height: 260.4px;
+  object-fit: contain;
+  z-index: 4;
+}
+.burger1,
+.rectangle-parent1 {
+  align-self: stretch;
+  position: relative;
+  z-index: 2;
+}
+.rectangle-parent1 {
+  height: 291.3px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+}
+.burger1 {
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 500;
+  flex-shrink: 0;
+}
+.food-titles {
+  width: 69.1px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-smi-3) 0 0;
+  box-sizing: border-box;
+}
+.cart-buttons-child {
+  height: 48.1px;
+  width: 150.6px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-200);
+  display: none;
+}
+.add-to-cart {
+  height: 24.7px;
+  flex: 1;
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  z-index: 3;
+}
+.cart-buttons {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-smi-3) var(--padding-3xl) var(--padding-xs-1)
+    var(--padding-4xl);
+  background-color: var(--color-cadetblue-200);
+  flex: 1;
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  align-items: flex-start;
+  flex-shrink: 0;
+  white-space: nowrap;
+  z-index: 2;
+}
+.cart-buttons,
+.donuts-image-wrapper,
+.food-details {
+  display: flex;
+  justify-content: flex-start;
+}
+.food-details {
+  width: 232.1px;
+  flex-direction: row;
+  align-items: flex-start;
+  gap: 12.4px;
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.donuts-image-wrapper {
+  flex: 1;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-mid-3);
+}
+.content,
+.donuts-image-container,
+.food-images {
+  align-self: stretch;
+  display: flex;
+  justify-content: flex-start;
+}
+.donuts-image-container {
+  flex-direction: row;
+  align-items: flex-start;
+  padding: 0 var(--padding-36xl) var(--padding-lg) var(--padding-35xl);
+}
+.content,
+.food-images {
+  flex-direction: column;
+}
+.food-images {
+  align-items: flex-start;
+  gap: 24.3px;
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-100);
+}
+.content {
+  align-items: flex-end;
+  gap: 66.7px;
+  text-align: center;
+  font-size: 32px;
+  color: var(--color-white);
+  font-family: var(--font-poppins);
+}
+.image-carousel-child {
+  position: absolute;
+  top: 132px;
+  left: -337px;
+  width: 834px;
+  height: 2127px;
+}
+.image-carousel-indicator,
+.image-carousel-indicator-activ {
+  position: absolute;
+  top: 172px;
+  left: -127px;
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 283px;
+  height: 283px;
+  z-index: 1;
+}
+.image-carousel-indicator-activ {
+  top: 359px;
+  left: 174px;
+  width: 62px;
+  height: 62px;
+}
+.delicious-burger-with-fresh-in-icon2 {
+  position: absolute;
+  top: 0;
+  left: -41px;
+  width: 325px;
+  height: 488px;
+  object-fit: contain;
+  z-index: 2;
+}
+.image-carousel-item,
+.product-icon {
+  position: absolute;
+  top: 488px;
+  left: 140px;
+  width: 119px;
+  height: 23.2px;
+  z-index: 1;
+}
+.image-carousel-item {
+  top: 523.6px;
+  left: 237.7px;
+  width: 22.3px;
+  height: 3px;
+}
+.image-carousel-background-righ {
+  position: absolute;
+  top: 713px;
+  left: 92px;
+  border-radius: var(--br-3xs) 0 0 var(--br-3xs);
+  background-color: var(--color-white);
+  width: 149.4px;
+  height: 32.3px;
+  z-index: 1;
+}
+.delicious-burger-with-fresh-in-icon3 {
+  position: absolute;
+  top: 892px;
+  left: 11px;
+  width: 675.5px;
+  height: 864.1px;
+  object-fit: contain;
+  z-index: 1;
+}
+.delicious-roasted-turkey-tray-icon1 {
+  position: absolute;
+  top: 1628.5px;
+  left: 53px;
+  width: 295px;
+  height: 196.3px;
+  object-fit: contain;
+  z-index: 3;
+}
+.image-carousel-indicator-activ1,
+.image-carousel-indicator-left,
+.image-carousel-indicator-right {
+  position: absolute;
+  top: 132px;
+  left: 122px;
+  filter: blur(150px);
+  border-radius: 50%;
+  background-color: var(--color-white);
+  width: 177px;
+  height: 177px;
+  z-index: 3;
+}
+.image-carousel-indicator-activ1,
+.image-carousel-indicator-right {
+  top: 16px;
+  left: 261px;
+  width: 232px;
+  height: 232px;
+  z-index: 4;
+}
+.image-carousel-indicator-right {
+  top: 322px;
+  left: 231px;
+  width: 129px;
+  height: 129px;
+  z-index: 3;
+}
+.image-carousel {
+  width: 100%;
+  height: 2259px;
+  position: absolute;
+  margin: 0 !important;
+  top: 77px;
+  right: 0;
+  left: 0;
+}
+.mobile-view {
+  width: 100%;
+  position: relative;
+  background-color: var(--color-linen);
+  overflow: hidden;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: 43px 0 0;
+  box-sizing: border-box;
+  gap: 533px;
+  line-height: normal;
+  letter-spacing: normal;
+}

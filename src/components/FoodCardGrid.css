@@ -1,0 +1,174 @@
+.frame-child14 {
+  width: 236px;
+  height: 236px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.hot-dogs-wooden-board-marble-t-icon {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 3;
+}
+.card-btn-row {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 45px;
+  white-space: nowrap;
+  z-index: 3;
+}
+.vector-icon5 {
+  align-self: stretch;
+  height: 10.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.vector-wrapper1 {
+  width: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.card-btn-row-five-parent,
+.frame-wrapper3 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.card-btn-row-five-parent {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.frame-wrapper3 {
+  width: 218px;
+  justify-content: flex-end;
+  padding: 0 var(--padding-lgi);
+  box-sizing: border-box;
+}
+.rectangle-parent8 {
+  align-self: stretch;
+  height: 236px;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: flex;
+  flex-direction: column;
+  align-items: flex-end;
+  justify-content: flex-start;
+  padding: var(--padding-34xl) var(--padding-10xs) var(--padding-3xs);
+  box-sizing: border-box;
+  gap: var(--gap-5xl);
+  z-index: 2;
+}
+.hot-dog {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 72px;
+  z-index: 1;
+}
+.hot-dog-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.frame-child15 {
+  height: 39px;
+  width: 122px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-200);
+  display: none;
+}
+.add-to-cart8 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 3;
+}
+.rectangle-parent9 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-lg) var(--padding-4xs)
+    var(--padding-lgi);
+  background-color: var(--color-cadetblue-200);
+  border-radius: var(--br-3xs);
+  justify-content: flex-start;
+  white-space: nowrap;
+  z-index: 2;
+}
+.rectangle-parent9:hover {
+  background-color: var(--color-teal);
+}
+.frame-parent10,
+.frame-wrapper4,
+.rectangle-parent9 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.frame-parent10 {
+  justify-content: flex-start;
+  gap: var(--gap-7xs);
+}
+.frame-wrapper4 {
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs);
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.food-card-grid2,
+.frame-parent9 {
+  display: flex;
+  align-items: flex-end;
+}
+.frame-parent9 {
+  flex: 1;
+  flex-direction: column;
+  justify-content: flex-start;
+  gap: var(--gap-sm);
+  min-width: 217px;
+  max-width: 236px;
+}
+.food-card-grid2 {
+  align-self: stretch;
+  flex-direction: row;
+  flex-wrap: wrap;
+  justify-content: center;
+  gap: var(--gap-5xl);
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 450px) {
+  .card-btn-row {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+}

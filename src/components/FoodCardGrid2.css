@@ -1,0 +1,424 @@
+.donut-card-child {
+  position: absolute;
+  top: 0;
+  left: 0;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  width: 100%;
+  height: 100%;
+  display: none;
+}
+.donut-image {
+  position: absolute;
+  top: 206px;
+  left: 25px;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 46px;
+  white-space: nowrap;
+  z-index: 4;
+}
+.burger-card-icon {
+  position: absolute;
+  top: 211px;
+  left: 131px;
+  width: 74px;
+  height: 10.3px;
+  z-index: 4;
+}
+.tasty-burger-isolated-white-ba-icon2 {
+  position: absolute;
+  top: 0;
+  left: 10px;
+  width: 211px;
+  height: 211px;
+  object-fit: contain;
+  z-index: 5;
+}
+.donut-card {
+  align-self: stretch;
+  height: 236px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  z-index: 3;
+}
+.burger2 {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 56px;
+  z-index: 1;
+}
+.chicken-image {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.chicken-btn-child {
+  height: 39px;
+  width: 122px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-200);
+  display: none;
+}
+.add-to-cart2 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 2;
+}
+.chicken-btn {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-lg) var(--padding-4xs)
+    var(--padding-lgi);
+  background-color: var(--color-cadetblue-200);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.chicken-btn:hover,
+.fries-title1:hover,
+.shawarma-card:hover {
+  background-color: var(--color-teal);
+}
+.chicken-btn,
+.chicken-card,
+.food-card-col-one {
+  display: flex;
+  justify-content: flex-start;
+}
+.chicken-card {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-3xs);
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.food-card-col-one {
+  align-self: stretch;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-sm);
+}
+.food-card-row-one {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-10xs) var(--padding-11xs) 0;
+}
+.meat-pie-image-child {
+  height: 236px;
+  width: 236px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.meat-pie-title {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 46px;
+  white-space: nowrap;
+  z-index: 4;
+}
+.fried-chicken-card {
+  align-self: stretch;
+  height: 10.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 4;
+}
+.meat-pie-desc {
+  width: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.meat-pie-card,
+.meat-pie-image {
+  align-self: stretch;
+  flex: 1;
+  display: flex;
+  flex-direction: row;
+}
+.meat-pie-image {
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  align-items: flex-end;
+  justify-content: space-between;
+  padding: var(--padding-3xs) var(--padding-3xl) var(--padding-3xs)
+    var(--padding-15xl);
+  gap: var(--gap-xl);
+  z-index: 3;
+}
+.meat-pie-card {
+  align-items: flex-start;
+  justify-content: flex-end;
+  padding: 0 var(--padding-9xs) 0 0;
+}
+.meat-pie {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 72px;
+  z-index: 1;
+}
+.card-btn-row-two {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-4xs) 0 0;
+}
+.shawarma-card-child {
+  height: 39px;
+  width: 122px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-200);
+  display: none;
+}
+.add-to-cart3 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 2;
+}
+.shawarma-card {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-lg) var(--padding-4xs)
+    var(--padding-lgi);
+  background-color: var(--color-cadetblue-200);
+  border-radius: var(--br-3xs);
+  flex-direction: row;
+  align-items: flex-start;
+  white-space: nowrap;
+  z-index: 1;
+}
+.food-card-row-two,
+.fried-chicken-btn,
+.shawarma-card {
+  display: flex;
+  justify-content: flex-start;
+}
+.fried-chicken-btn {
+  flex-direction: row;
+  align-items: flex-start;
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.food-card-row-two {
+  height: 289px;
+  flex-direction: column;
+  align-items: flex-end;
+  gap: var(--gap-sm);
+}
+.shawarma-btn-child {
+  width: 236px;
+  height: 236px;
+  position: relative;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  display: none;
+}
+.side-view-shawarma-with-fried-icon1 {
+  align-self: stretch;
+  flex: 1;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  max-height: 100%;
+  object-fit: contain;
+  z-index: 3;
+}
+.biscuit-btn {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  display: inline-block;
+  min-width: 46px;
+  white-space: nowrap;
+  z-index: 3;
+}
+.food-card-row-four {
+  align-self: stretch;
+  height: 10.3px;
+  position: relative;
+  max-width: 100%;
+  overflow: hidden;
+  flex-shrink: 0;
+  z-index: 3;
+}
+.card-btn-row-three {
+  width: 74px;
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-8xs) 0 0;
+  box-sizing: border-box;
+}
+.biscuit-image,
+.biscuit-title,
+.shawarma-btn {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+}
+.biscuit-title {
+  flex: 1;
+  justify-content: space-between;
+  gap: var(--gap-xl);
+}
+.biscuit-image,
+.shawarma-btn {
+  align-self: stretch;
+  justify-content: flex-start;
+  padding: 0 var(--padding-sm) 0 var(--padding-7xs);
+}
+.shawarma-btn {
+  flex: 1;
+  border-radius: var(--br-11xl);
+  background-color: var(--color-white);
+  flex-direction: column;
+  padding: var(--padding-sm) var(--padding-sm) var(--padding-3xs)
+    var(--padding-3xl);
+  gap: var(--gap-5xl);
+  z-index: 2;
+}
+.shawarma2 {
+  position: relative;
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 500;
+  display: inline-block;
+  min-width: 93px;
+  z-index: 1;
+}
+.shawarma-wrapper {
+  display: flex;
+  flex-direction: column;
+  align-items: flex-start;
+  justify-content: flex-start;
+  padding: var(--padding-3xs) 0 0;
+}
+.fries-title-child {
+  height: 39px;
+  width: 122px;
+  position: relative;
+  border-radius: var(--br-3xs);
+  background-color: var(--color-cadetblue-200);
+  display: none;
+}
+.add-to-cart4 {
+  position: relative;
+  font-size: var(--font-size-mini);
+  letter-spacing: -0.23px;
+  line-height: 20px;
+  font-weight: 600;
+  font-family: var(--font-poppins);
+  color: var(--color-white);
+  text-align: left;
+  display: inline-block;
+  min-width: 85px;
+  z-index: 3;
+}
+.frame-parent2,
+.fries-title1 {
+  display: flex;
+  flex-direction: row;
+  align-items: flex-start;
+  justify-content: flex-start;
+}
+.fries-title1 {
+  cursor: pointer;
+  border: 0;
+  padding: var(--padding-3xs) var(--padding-lg) var(--padding-4xs)
+    var(--padding-lgi);
+  background-color: var(--color-cadetblue-200);
+  border-radius: var(--br-3xs);
+  white-space: nowrap;
+  z-index: 2;
+}
+.frame-parent2 {
+  gap: var(--gap-9xs);
+  font-size: var(--font-size-mid);
+  color: var(--color-white);
+}
+.food-card-grid,
+.shawarma-title {
+  align-items: flex-end;
+  justify-content: flex-start;
+}
+.shawarma-title {
+  height: 289px;
+  display: flex;
+  flex-direction: column;
+  padding: 0 var(--padding-7xs) 0 0;
+  box-sizing: border-box;
+  gap: var(--gap-sm);
+}
+.food-card-grid {
+  align-self: stretch;
+  display: grid;
+  flex-direction: row;
+  gap: var(--gap-2xl);
+  grid-template-columns: repeat(4, minmax(181px, 1fr));
+  text-align: left;
+  font-size: var(--font-size-5xl);
+  color: var(--color-dimgray-100);
+  font-family: var(--font-poppins);
+}
+@media screen and (max-width: 1050px) {
+  .food-card-grid {
+    justify-content: center;
+    grid-template-columns: repeat(2, minmax(181px, 315px));
+  }
+}
+@media screen and (max-width: 450px) {
+  .biscuit-btn,
+  .donut-image,
+  .meat-pie-title {
+    font-size: var(--font-size-lgi);
+    line-height: 16px;
+  }
+  .food-card-grid {
+    grid-template-columns: minmax(181px, 1fr);
+  }
+}
